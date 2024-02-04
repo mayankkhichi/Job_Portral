@@ -1,25 +1,21 @@
-
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MainJobs from "./Jobs/MainJobs";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./COMPONENT/Header";
+import Home from "./COMPONENT/HOME/Home";
+import Footer from "./COMPONENT/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
-
   return (
     <>
+      <Header></Header>
 
-      <h1>HELLO WORLD Guys Jay Hind Jay Bharat</h1>
-
+      <Home></Home>
+      <Footer></Footer>
     </>
   );
-
-  
-  
 }
 
 export default App;
