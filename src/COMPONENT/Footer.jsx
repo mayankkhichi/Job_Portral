@@ -5,8 +5,8 @@ function Footer() {
   return (
     <>
     
+<footer class="bg-black   m-0 p-0 static-0 bottom-0">
 
-<footer class="bg-black w-full  m-0 p-0 static bottom-0">
     <div class=" max-w-screen-xl mx-auto p-4 ">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">

@@ -7,7 +7,9 @@ function Header() {
     <div className="w-[100%] bg-slate-200 shadow-md flex flex-wrap  py-2 ">
         <div className='flex justify-center w-[50%]'>
         <div className='w-[40%] my-auto mx-5 text-black text-xl flex justify-left font-bold'>LOGO NAME</div>
-         <div className='w-[40%] my-auto text-black text-xl flex justify-left font-bold'> <a href=''>Available JOBS</a></div>
+
+         <div className='w-[40%] my-auto text-black text-xl flex justify-left font-bold'> Available JOBS</div>
+
          </div>
          <div className='flex w-[50%]'>
          <div className='w-[40%] text-white text-2xl flex justify-center me-3  bg-black rounded-[20px] p-1 h-auto'><button className=" "> JOB SEARCH LOGIN</button></div>
